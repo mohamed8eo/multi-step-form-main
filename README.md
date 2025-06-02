@@ -71,9 +71,10 @@ A final thank-you message indicating successful completion.
 ---
 
 ## 🛠️ Technologies Used
-- HTML5
+- Tailwind CSS
+- Vite
+- React ( JavaScript (DOM manipulation & state control))
 - CSS3 (with custom styling)
-- JavaScript (DOM manipulation & state control)
 
 ---
 

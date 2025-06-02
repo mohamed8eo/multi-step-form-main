@@ -1,0 +1,51 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --Blue-950: #02295a;
+  --Purple-600: #473dff;
+  --Blue-300: #adbeff;
+  --Blue-200: #bfe2fd;
+  --Red-500: #ed3548;
+
+  /* ### Neutral */
+
+  --Grey-500: #9699ab;
+  --Purple-200: #d6d9e6;
+  --Blue-100: #f0f5ff;
+  --Blue-50: #fafbff;
+  --White: #ffffff;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f0f5ff;
+      font-weight: 800;
+  
+}
+
+
+.summary_detills{
+  display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    border: none;
+    padding: 0;
+    border-radius: .5rem;
+    font-weight: 400;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    background: none;
+    color: #9699ab;
+    transition: filter .2s ease-in-out;
+}
